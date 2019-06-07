@@ -33,7 +33,7 @@ gem 'bootsnap'
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
-
+  gem 'pry'
   gem 'rspec-rails', '~> 3.0'
   gem 'capybara'
   gem 'database_cleaner'
